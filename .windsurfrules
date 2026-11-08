@@ -84,6 +84,10 @@ rules:
     description: Use lakehouse-dataagent-remediation-cli to improve the lakehouse source behind a Fabric data agent (descriptions, source instructions, example queries, schema selection, routing), plan-first with backup, readback, and rollback
     reference: skills/lakehouse-dataagent-remediation-cli/SKILL.md
 
+  - name: dataagent
+    description: Use dataagent-cli to plan, create, configure, improve, publish, and evaluate Fabric data agents over lakehouse, warehouse, SQL database, mirrored database, semantic model, Eventhouse KQL, graph, ontology, and AI Search sources, with per-source best practices and plan-first approval
+    reference: skills/dataagent-cli/SKILL.md
+
   - name: cost_estimation
     description: Use e2e-fabric-cost-estimation for Fabric capacity cost estimation, SKU sizing, and billing strategy
     reference: skills/e2e-fabric-cost-estimation/SKILL.md

@@ -99,6 +99,7 @@ Developers use REST APIs to manage artifacts, then protocol-specific connections
 
 ### Data Agent Lakehouse Remediation
 - Lakehouse data agent remediation skill: `skills/lakehouse-dataagent-remediation-cli/SKILL.md` (assess, plan, apply, verify are modes; apply needs an approved plan and writes the draft stage only)
+- Data agent skill: `skills/dataagent-cli/SKILL.md` (planning, authoring, evaluation, management are modes; covers any data source type; writes the draft stage only after an approved plan)
 
 ### Cost Estimation & Migration Planning
 - E2E skill: `skills/e2e-fabric-cost-estimation/SKILL.md` — Fabric capacity cost estimation, SKU sizing, billing strategy

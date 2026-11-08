@@ -72,6 +72,7 @@ Fabric REST APIs: https://learn.microsoft.com/en-us/rest/api/fabric/articles/
 - Power BI report management skill: `skills/powerbi-report-management/SKILL.md` — Fabric report item CRUD via `az rest`
 - Spark skill: `skills/spark-cli/SKILL.md` — notebook authoring and runs, Livy analysis, read-only diagnostics, and MLV lifecycle operations
 - Lakehouse data agent remediation skill: `skills/lakehouse-dataagent-remediation-cli/SKILL.md` — improve the lakehouse source behind a Fabric data agent (schema object descriptions, source instructions, validated example queries, schema selection, routing) with a plan-first, backup, readback, and rollback workflow; the Fabric Data Agent Analyzer finds the gaps, this skill fixes them
+- Data agent skill: `skills/dataagent-cli/SKILL.md` — plan, create, configure, improve, publish, and evaluate Fabric data agents over any source (lakehouse, warehouse, SQL database, mirrored database, semantic model, Eventhouse KQL, graph, ontology, AI Search) with per-source best practices; modes: planning (approval gate), authoring (draft only, backup first), evaluation, management
 - Variable Library (CI/CD): parameterize workspaces across environments — author definitions, value sets, and active value set item state, and wire consumers to Variable Library references (see `skills/variable-library-cli/SKILL.md`)
 
 ### Operations

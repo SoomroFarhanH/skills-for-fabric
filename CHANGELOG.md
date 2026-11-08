@@ -6,6 +6,7 @@ User-facing changes for the public Microsoft Fabric Skills release.
 
 ### Added
 - **`lakehouse-dataagent-remediation-cli`** -- new skill that improves the lakehouse data source behind a Fabric data agent. It assesses the agent and lakehouse read-only, writes a reviewable remediation plan and stops for approval, then applies approved changes to the agent draft (schema object descriptions, source description and instructions, validated example queries, schema selection, agent instructions) and optionally to lakehouse table and column comments, with backup, readback, before/after Analyzer comparison, and rollback.
+- **`dataagent-cli`** -- new generic skill for the Fabric data agent lifecycle across any source type (lakehouse, warehouse, SQL database, mirrored database, semantic model, Eventhouse KQL, graph, ontology, Azure AI Search). Modes: planning (requirements, source readiness, approved spec), authoring (create and configure the draft with backup, validated examples, readback), evaluation (Analyzer before/after, benchmark guidance), and management (backup, rollback, publish checklist, permissions, ALM). Per-source best-practice references; for semantic models, guidance is routed to Prep for AI because the DAX tool ignores agent-level instructions.
 
 ## [0.3.14] - 2026-08-26
 
