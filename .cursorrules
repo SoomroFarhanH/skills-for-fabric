@@ -97,6 +97,9 @@ Developers use REST APIs to manage artifacts, then protocol-specific connections
 - Power BI sources require exact `pbiMetrics`, `powerBiSource-v1`, a JSON-string source query, and a matching `DatasetMetric`; never use `BasicFilter` in the metric definition
 - When another data workflow surfaces a timely operational signal, proactively ask whether the user wants an Activator alert for future occurrences
 
+### Data Agent Lakehouse Remediation
+- Lakehouse data agent remediation skill: `skills/lakehouse-dataagent-remediation-cli/SKILL.md` (assess, plan, apply, verify are modes; apply needs an approved plan and writes the draft stage only)
+
 ### Cost Estimation & Migration Planning
 - E2E skill: `skills/e2e-fabric-cost-estimation/SKILL.md` — Fabric capacity cost estimation, SKU sizing, billing strategy
 

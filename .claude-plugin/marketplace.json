@@ -36,7 +36,8 @@
         "./skills/hdinsight-migration",
         "./skills/e2e-medallion-architecture",
         "./skills/git-integration-operations-cli",
-        "./skills/e2e-fabric-cost-estimation"
+        "./skills/e2e-fabric-cost-estimation",
+        "./skills/lakehouse-dataagent-remediation-cli"
       ],
       "agents": [
         "./agents/FabricAdmin.agent.md",
@@ -104,7 +105,8 @@
         "./skills/hdinsight-migration",
         "./skills/e2e-medallion-architecture",
         "./skills/git-integration-operations-cli",
-        "./skills/e2e-fabric-cost-estimation"
+        "./skills/e2e-fabric-cost-estimation",
+        "./skills/lakehouse-dataagent-remediation-cli"
       ],
       "agents": [
         "./agents/FabricAdmin.agent.md",
@@ -172,7 +174,8 @@
         "./skills/hdinsight-migration",
         "./skills/e2e-medallion-architecture",
         "./skills/git-integration-operations-cli",
-        "./skills/e2e-fabric-cost-estimation"
+        "./skills/e2e-fabric-cost-estimation",
+        "./skills/lakehouse-dataagent-remediation-cli"
       ],
       "agents": [
         "./agents/FabricAdmin.agent.md",

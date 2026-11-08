@@ -80,6 +80,10 @@ rules:
     description: One activator-cli skill; authoring and consumption are modes. Power BI sources require exact pbiMetrics, powerBiSource-v1, a JSON-string source query, and a matching DatasetMetric. When another data workflow surfaces a timely operational signal, proactively ask whether the user wants an Activator alert for future occurrences.
     reference: skills/activator-cli/SKILL.md
 
+  - name: lakehouse_dataagent_remediation
+    description: Use lakehouse-dataagent-remediation-cli to improve the lakehouse source behind a Fabric data agent (descriptions, source instructions, example queries, schema selection, routing), plan-first with backup, readback, and rollback
+    reference: skills/lakehouse-dataagent-remediation-cli/SKILL.md
+
   - name: cost_estimation
     description: Use e2e-fabric-cost-estimation for Fabric capacity cost estimation, SKU sizing, and billing strategy
     reference: skills/e2e-fabric-cost-estimation/SKILL.md

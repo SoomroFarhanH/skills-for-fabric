@@ -144,6 +144,8 @@ https://learn.microsoft.com/en-us/rest/api/fabric/articles/
   - Docs: https://learn.microsoft.com/en-us/fabric/data-science/concept-data-agent
 - **Data Agent Evaluation**: Testing and validating Data Agent accuracy
   - Docs: https://learn.microsoft.com/en-us/fabric/data-science/fabric-data-agent-sdk
+- **Data Agent Lakehouse Remediation**: improve the lakehouse source behind a data agent (descriptions, source instructions, example queries, schema selection, routing)
+  - Skill: `skills/lakehouse-dataagent-remediation-cli/SKILL.md` — modes: assess, plan (approval gate), apply (draft only, backup first), verify (readback, before/after, rollback)
 
 ### Variable Library (CI/CD)
 - **Variable Library**: parameterize workspaces across environments (dev/test/prod) via named variables and value sets
